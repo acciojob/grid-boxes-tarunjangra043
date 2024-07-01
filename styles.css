@@ -1,10 +1,10 @@
 /*  your css code here. If applicable */
-#grid{
+#container{
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
 	grid-auto-rows: 100px;
 }
-#grid div{
+#container div{
 	background-color: green;
 	border: 2px solid white;
 }
